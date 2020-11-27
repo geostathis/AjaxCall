@@ -31,7 +31,7 @@ promise2.then(function(p){
     var last=Object.assign({},p[p.length-1]);
     console.log(last);
     document.getElementById("myObject").innerHTML="To html_url είναι: "+last['html_url'];
-    window.location.href=last['html_url'];
+    //window.location.href=last['html_url'];
     return last;
     
 }).catch(function (err){
